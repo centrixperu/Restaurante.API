@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Centrix.Encore.Application.Interfaces\Centrix.Encore.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.IoC\Centrix.Encore.IoC.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Repository.Implementations\Centrix.Encore.Repository.Implementations.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Repository.Interfaces\Centrix.Encore.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Service.Interfaces\Centrix.Encore.Service.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

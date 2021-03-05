@@ -1,0 +1,16 @@
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\bin\Debug\netcoreapp3.1\Centrix.Encore.Dto.deps.json
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\bin\Debug\netcoreapp3.1\Centrix.Encore.Dto.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\bin\Debug\netcoreapp3.1\Centrix.Encore.Dto.pdb
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\bin\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\bin\Debug\netcoreapp3.1\Centrix.Encore.IoC.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.pdb
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\bin\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.pdb
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\bin\Debug\netcoreapp3.1\Centrix.Encore.IoC.pdb
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\obj\Debug\netcoreapp3.1\Centrix.Encore.Dto.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\obj\Debug\netcoreapp3.1\Centrix.Encore.Dto.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\obj\Debug\netcoreapp3.1\Centrix.Encore.Dto.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\obj\Debug\netcoreapp3.1\Centrix.Encore.Dto.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\obj\Debug\netcoreapp3.1\Centrix.Encore.Dto.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\obj\Debug\netcoreapp3.1\Centrix.Encore.Dto.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Dto\obj\Debug\netcoreapp3.1\Centrix.Encore.Dto.pdb

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Centrix.Encore.Dto\Centrix.Encore.Dto.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Model\Centrix.Encore.Model.csproj" />
+  </ItemGroup>
+
+</Project>

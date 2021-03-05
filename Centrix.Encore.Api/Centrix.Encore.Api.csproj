@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Api\Centrix.Encore.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Api\Centrix.Encore.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="FluentValidation" Version="9.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.6" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.7.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.5.1" />
+    <PackageReference Include="YrinLeung.EasyCaching.Interceptor.AspectCore.Autofac" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Centrix.Encore.Application.Implementations\Centrix.Encore.Application.Implementations.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Application.Interfaces\Centrix.Encore.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Caching\Centrix.Encore.Caching.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Dto\Centrix.Encore.Dto.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Extensions\Centrix.Encore.Extensions.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.IoC\Centrix.Encore.IoC.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Model\Centrix.Encore.Model.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Repository.Implementations\Centrix.Encore.Repository.Implementations.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Repository.Interfaces\Centrix.Encore.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Service.Implementations\Centrix.Encore.Service.Implementations.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Service.Interfaces\Centrix.Encore.Service.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

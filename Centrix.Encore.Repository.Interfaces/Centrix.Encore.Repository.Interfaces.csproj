@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Centrix.Encore.Caching\Centrix.Encore.Caching.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Domain.Models\Centrix.Encore.Domain.Models.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Dto\Centrix.Encore.Dto.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Model\Centrix.Encore.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>

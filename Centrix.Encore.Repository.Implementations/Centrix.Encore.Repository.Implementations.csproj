@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Centrix.Encore.Common\Centrix.Encore.Common.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Domain.Models\Centrix.Encore.Domain.Models.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Dto\Centrix.Encore.Dto.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.IoC\Centrix.Encore.IoC.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Model\Centrix.Encore.Model.csproj" />
+    <ProjectReference Include="..\Centrix.Encore.Repository.Interfaces\Centrix.Encore.Repository.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
+  </ItemGroup>
+
+</Project>

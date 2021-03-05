@@ -1,0 +1,9 @@
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\bin\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.deps.json
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\bin\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\bin\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.pdb
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.pdb
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.csprojAssemblyReference.cache

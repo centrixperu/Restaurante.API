@@ -1,0 +1,14 @@
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.deps.json
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.pdb
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\bin\Debug\netcoreapp3.1\Centrix.Encore.IoC.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\bin\Debug\netcoreapp3.1\Centrix.Encore.IoC.pdb
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.dll
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.pdb
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.Resources.CommonResource.resources
+C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csproj.GenerateResource.cache
