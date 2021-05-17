@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LXd2IAx8IX2cfdQzTBjTBHtrniMZ37dgOxIbU63lyxPDWJs1Y4vE3ndLfm38MVFLlAG+HUHp+fQgkyZO9l40rQ==",
+  "dgSpecHash": "AtYjJHoAAJ/r96xhOObC8OpOboOPrFwbSnvZNhTJOC8kKwnYsSU3Y+WzvoQbn4ArC9NYHJYFpX97BkAkuZ9V9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj",
+  "projectFilePath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\aspectcore.abstractions\\2.1.0\\aspectcore.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\aspectcore.core\\2.1.0\\aspectcore.core.2.1.0.nupkg.sha512",

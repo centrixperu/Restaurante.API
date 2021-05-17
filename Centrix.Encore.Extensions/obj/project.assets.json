@@ -4341,11 +4341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Extensions\\Centrix.Encore.Extensions.csproj",
+      "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Extensions\\Centrix.Encore.Extensions.csproj",
       "projectName": "Centrix.Encore.Extensions",
-      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Extensions\\Centrix.Encore.Extensions.csproj",
+      "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Extensions\\Centrix.Encore.Extensions.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Extensions\\obj\\",
+      "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Extensions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -4367,8 +4367,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
             }
           }
         }

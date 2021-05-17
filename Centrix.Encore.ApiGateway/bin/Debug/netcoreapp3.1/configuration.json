@@ -1,0 +1,68 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/index.html",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/seguridad/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
+        }
+      ],
+      "SwaggerKey": "Seguridad"
+    },
+    {
+      "UpstreamPathTemplate": "/api/pokemon/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "SwaggerKey": "Pokemon",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Pokemon",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "Seguridad",
+      "Config": [
+        {
+          "Name": "Seguridad API",
+          "Version": "v1",
+          "Url": "http://localhost:8000/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Pokemon",
+      "Config": [
+        {
+          "Name": "Pokemon API",
+          "Version": "v2",
+          "Url": "http://localhost:8001/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}

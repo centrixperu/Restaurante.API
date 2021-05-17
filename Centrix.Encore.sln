@@ -15,33 +15,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Domain", "04 Domain", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Infraestructure", "05 Infraestructure", "{B55755A6-07CC-4FC8-A242-34BE51FCFBFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Application.Implementations", "Centrix.Encore.Application.Implementations\Centrix.Encore.Application.Implementations.csproj", "{DC5A60DA-24B5-48D3-A395-B2E26479D888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Application.Implementations", "Centrix.Encore.Application.Implementations\Centrix.Encore.Application.Implementations.csproj", "{DC5A60DA-24B5-48D3-A395-B2E26479D888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Application.Interfaces", "Centrix.Encore.Application.Interfaces\Centrix.Encore.Application.Interfaces.csproj", "{74DE2C87-B6EA-44EA-8B55-63DA7163B021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Application.Interfaces", "Centrix.Encore.Application.Interfaces\Centrix.Encore.Application.Interfaces.csproj", "{74DE2C87-B6EA-44EA-8B55-63DA7163B021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Domain.Models", "Centrix.Encore.Domain.Models\Centrix.Encore.Domain.Models.csproj", "{C1F1A252-2017-48F8-87CA-907C847DA38E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Domain.Models", "Centrix.Encore.Domain.Models\Centrix.Encore.Domain.Models.csproj", "{C1F1A252-2017-48F8-87CA-907C847DA38E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Repository.Implementations", "Centrix.Encore.Repository.Implementations\Centrix.Encore.Repository.Implementations.csproj", "{D0E74F19-997B-424C-A60A-BE0DD72E2329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Repository.Implementations", "Centrix.Encore.Repository.Implementations\Centrix.Encore.Repository.Implementations.csproj", "{D0E74F19-997B-424C-A60A-BE0DD72E2329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Repository.Interfaces", "Centrix.Encore.Repository.Interfaces\Centrix.Encore.Repository.Interfaces.csproj", "{A77D1F4E-6EAD-4560-8FA9-E75B86E4B7E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Repository.Interfaces", "Centrix.Encore.Repository.Interfaces\Centrix.Encore.Repository.Interfaces.csproj", "{A77D1F4E-6EAD-4560-8FA9-E75B86E4B7E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Service.Implementations", "Centrix.Encore.Service.Implementations\Centrix.Encore.Service.Implementations.csproj", "{4B152EB8-1265-4C6F-826B-43BCA4B8680A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Service.Implementations", "Centrix.Encore.Service.Implementations\Centrix.Encore.Service.Implementations.csproj", "{4B152EB8-1265-4C6F-826B-43BCA4B8680A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Service.Interfaces", "Centrix.Encore.Service.Interfaces\Centrix.Encore.Service.Interfaces.csproj", "{68ED3B38-81F5-4BEF-8C80-0EF28EE8051C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Service.Interfaces", "Centrix.Encore.Service.Interfaces\Centrix.Encore.Service.Interfaces.csproj", "{68ED3B38-81F5-4BEF-8C80-0EF28EE8051C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Common", "Centrix.Encore.Common\Centrix.Encore.Common.csproj", "{214D1596-7507-42B2-A181-01DE65DB40D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Common", "Centrix.Encore.Common\Centrix.Encore.Common.csproj", "{214D1596-7507-42B2-A181-01DE65DB40D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Dto", "Centrix.Encore.Dto\Centrix.Encore.Dto.csproj", "{46471C4E-BB1C-48B1-BDD2-CF6703B27D1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Dto", "Centrix.Encore.Dto\Centrix.Encore.Dto.csproj", "{46471C4E-BB1C-48B1-BDD2-CF6703B27D1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Extensions", "Centrix.Encore.Extensions\Centrix.Encore.Extensions.csproj", "{97C83DF1-5A9B-49E5-96F4-C59B06C24C81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Extensions", "Centrix.Encore.Extensions\Centrix.Encore.Extensions.csproj", "{97C83DF1-5A9B-49E5-96F4-C59B06C24C81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.IoC", "Centrix.Encore.IoC\Centrix.Encore.IoC.csproj", "{0FF7D802-7C12-447D-9398-057548297A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.IoC", "Centrix.Encore.IoC\Centrix.Encore.IoC.csproj", "{0FF7D802-7C12-447D-9398-057548297A6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Model", "Centrix.Encore.Model\Centrix.Encore.Model.csproj", "{15DE7324-98E3-4CA8-98D9-9DF2E9A00CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Model", "Centrix.Encore.Model\Centrix.Encore.Model.csproj", "{15DE7324-98E3-4CA8-98D9-9DF2E9A00CA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Caching", "Centrix.Encore.Caching\Centrix.Encore.Caching.csproj", "{6E2C035F-46F3-4E1D-A5A3-AFEF78506035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Caching", "Centrix.Encore.Caching\Centrix.Encore.Caching.csproj", "{6E2C035F-46F3-4E1D-A5A3-AFEF78506035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.Api", "Centrix.Encore.Api\Centrix.Encore.Api.csproj", "{45B64782-9183-4911-A15B-E7EF3D739B8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrix.Encore.Api", "Centrix.Encore.Api\Centrix.Encore.Api.csproj", "{45B64782-9183-4911-A15B-E7EF3D739B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.ApiGateway", "Centrix.Encore.ApiGateway\Centrix.Encore.ApiGateway.csproj", "{BC22D2D9-B530-464B-B8D8-02E8DBBD88D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrix.Encore.ApiPokemon", "Centrix.Encore.ApiPokemon\Centrix.Encore.ApiPokemon.csproj", "{02A887FD-3BB8-4E4A-8F31-88B166248FDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{45B64782-9183-4911-A15B-E7EF3D739B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45B64782-9183-4911-A15B-E7EF3D739B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45B64782-9183-4911-A15B-E7EF3D739B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC22D2D9-B530-464B-B8D8-02E8DBBD88D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC22D2D9-B530-464B-B8D8-02E8DBBD88D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC22D2D9-B530-464B-B8D8-02E8DBBD88D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC22D2D9-B530-464B-B8D8-02E8DBBD88D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A887FD-3BB8-4E4A-8F31-88B166248FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A887FD-3BB8-4E4A-8F31-88B166248FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A887FD-3BB8-4E4A-8F31-88B166248FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A887FD-3BB8-4E4A-8F31-88B166248FDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,6 +136,8 @@ Global
 		{15DE7324-98E3-4CA8-98D9-9DF2E9A00CA9} = {102D0DE5-4C79-4BB4-939C-16731BB577E4}
 		{6E2C035F-46F3-4E1D-A5A3-AFEF78506035} = {102D0DE5-4C79-4BB4-939C-16731BB577E4}
 		{45B64782-9183-4911-A15B-E7EF3D739B8C} = {1E942DA6-1EA0-4C92-8CEE-FDA1CBEA1816}
+		{BC22D2D9-B530-464B-B8D8-02E8DBBD88D8} = {1E942DA6-1EA0-4C92-8CEE-FDA1CBEA1816}
+		{02A887FD-3BB8-4E4A-8F31-88B166248FDB} = {1E942DA6-1EA0-4C92-8CEE-FDA1CBEA1816}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8845633A-219A-4C3E-9F64-E324BE5FB47D}

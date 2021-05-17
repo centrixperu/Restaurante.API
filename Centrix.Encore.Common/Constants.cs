@@ -36,10 +36,9 @@ namespace Centrix.Encore.Common
             public struct UserClaims
             {
                 public const string UserName = "UserName";
-                public const string Society = "Sociedad";
-                public const string ServiceOrganization = "ServiceOrganization";
-                public const string Roles = "Roles";
-                public const string FullName = "FullName";
+                public const string CodigoCliente = "CodigoCliente";
+                public const string CodigoSucursal = "CodigoSucursal";
+                public const string CodigoSistema = "CodigoSistema";
             }
         }
 

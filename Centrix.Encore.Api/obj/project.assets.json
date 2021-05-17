@@ -1216,11 +1216,10 @@
           "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {}
         }
       },
-      "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
+      "Microsoft.IdentityModel.JsonWebTokens/6.7.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
+          "Microsoft.IdentityModel.Tokens": "6.7.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
@@ -2062,12 +2061,11 @@
           }
         }
       },
-      "System.IdentityModel.Tokens.Jwt/5.5.0": {
+      "System.IdentityModel.Tokens.Jwt/6.7.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
+          "Microsoft.IdentityModel.JsonWebTokens": "6.7.1",
+          "Microsoft.IdentityModel.Tokens": "6.7.1"
         },
         "compile": {
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
@@ -3415,7 +3413,8 @@
           "Centrix.Encore.IoC": "1.0.0",
           "Centrix.Encore.Repository.Implementations": "1.0.0",
           "Centrix.Encore.Repository.Interfaces": "1.0.0",
-          "Centrix.Encore.Service.Interfaces": "1.0.0"
+          "Centrix.Encore.Service.Interfaces": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "6.7.1"
         },
         "compile": {
           "bin/placeholder/Centrix.Encore.Application.Implementations.dll": {}
@@ -5049,24 +5048,20 @@
         "ref/xamarinmac20/Microsoft.Identity.Client.xml"
       ]
     },
-    "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
-      "sha512": "cT9SCW/dN+ulrvAtbh37c36DR6aArENH3S4UtFmvXRx+VGC0ArDgzRaEbEh+ChS4koxdl2oS691250iZhgKvwg==",
+    "Microsoft.IdentityModel.JsonWebTokens/6.7.1": {
+      "sha512": "q/Ii8ILV8cM1X49gnl12cJK+0KWiI1xUeiLYiE9+uRonJLaHWB0l8t89rGnZTEGthGKItyikKSB38LQpfy/zBw==",
       "type": "package",
-      "path": "microsoft.identitymodel.jsonwebtokens/5.5.0",
+      "path": "microsoft.identitymodel.jsonwebtokens/6.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/net45/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "lib/net451/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "lib/net451/Microsoft.IdentityModel.JsonWebTokens.xml",
         "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/net461/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
         "microsoft.identitymodel.jsonwebtokens.nuspec"
       ]
     },
@@ -6879,24 +6874,20 @@
         "system.globalization.extensions.nuspec"
       ]
     },
-    "System.IdentityModel.Tokens.Jwt/5.5.0": {
-      "sha512": "xa8kptJ+uf9hzj366f3pLcs5HFZ6dQMDKzEGq/yZNF0s3mVfyIhuQwgDcTJlAU4AROne/6Z5+vITwrW3gVNKIA==",
+    "System.IdentityModel.Tokens.Jwt/6.7.1": {
+      "sha512": "sPnRn9dUMYARQC3mAKWpig/7rlrruqJvopKXmGoYAQ1A+xQsT3q5LiwsArkV8Oz/hfiRCLkV9vgi3FQg/mYfrw==",
       "type": "package",
-      "path": "system.identitymodel.tokens.jwt/5.5.0",
+      "path": "system.identitymodel.tokens.jwt/6.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
-        "lib/net451/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/net451/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
-        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.xml",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
-        "system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
@@ -10577,6 +10568,7 @@
       "Centrix.Encore.Application.Implementations >= 1.0.0",
       "Centrix.Encore.Application.Interfaces >= 1.0.0",
       "Centrix.Encore.Caching >= 1.0.0",
+      "Centrix.Encore.Common >= 1.0.0",
       "Centrix.Encore.Dto >= 1.0.0",
       "Centrix.Encore.Extensions >= 1.0.0",
       "Centrix.Encore.IoC >= 1.0.0",
@@ -10604,11 +10596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Api\\Centrix.Encore.Api.csproj",
+      "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Api\\Centrix.Encore.Api.csproj",
       "projectName": "Centrix.Encore.Api",
-      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Api\\Centrix.Encore.Api.csproj",
+      "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Api\\Centrix.Encore.Api.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Api\\obj\\",
+      "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -10630,38 +10622,41 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Extensions\\Centrix.Encore.Extensions.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Extensions\\Centrix.Encore.Extensions.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Extensions\\Centrix.Encore.Extensions.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Extensions\\Centrix.Encore.Extensions.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Service.Implementations\\Centrix.Encore.Service.Implementations.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Service.Implementations\\Centrix.Encore.Service.Implementations.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Implementations\\Centrix.Encore.Service.Implementations.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Implementations\\Centrix.Encore.Service.Implementations.csproj"
+            },
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj"
             }
           }
         }

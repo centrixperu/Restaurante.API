@@ -7,3 +7,11 @@ C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Deb
 C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.dll
 C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.pdb
 C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.csprojAssemblyReference.cache
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Domain.Models\bin\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.deps.json
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Domain.Models\bin\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.dll
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Domain.Models\bin\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.pdb
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.AssemblyInfoInputs.cache
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.AssemblyInfo.cs
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.dll
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Domain.Models\obj\Debug\netcoreapp3.1\Centrix.Encore.Domain.Models.pdb

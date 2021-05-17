@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Autofac;
 using Centrix.Encore.Common.Schema;
 using Centrix.Encore.Extensions;
+using Centrix.Encore.IoC;
 using Centrix.Encore.Repository.Implementations.Data;
 using Centrix.Encore.Repository.Implementations.Data.Base;
 using Centrix.Encore.Repository.Interfaces.Data;
@@ -51,6 +53,20 @@ namespace Centrix.Encore.Api
                     ServerCertificateCustomValidationCallback = (m, c, ch, e) => true
                 };
             });
+
+            services.AddSwaggerGen(cfg =>
+            {
+                cfg.CustomSchemaIds(type => type.ToString());
+                cfg.DocumentFilter<HideOcelotControllersFilter>();
+            });
+
+            //services.AddLoggingException(Configuration);
+
+            string projectName = System.Reflection.Assembly.GetEntryAssembly().GetName().Name;
+
+            //services.AddSingleton<ILoggerApplication, Logger>((provider) => { return new Logger(System.Reflection.Assembly.GetEntryAssembly().GetName().Name); });
+
+            IoCContainer.SetServices(services, Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -85,5 +101,18 @@ namespace Centrix.Encore.Api
                 c.DocumentTitle = "Encore";
             });
         }
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+
+            builder.RegisterModule(new ApplicationModule());
+        }
+        public class ApplicationModule : Module
+        {
+            protected override void Load(ContainerBuilder builder)
+            {
+                IoCContainer.Initialize(builder);
+            }
+        }
+
     }
 }

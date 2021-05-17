@@ -22,21 +22,21 @@ namespace Centrix.Encore.Common.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class CommonResource {
+    public class CommonResource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal CommonResource() {
+        public CommonResource() {
         }
         
         /// <summary>
         ///   Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Centrix.Encore.Common.Resources.CommonResource", typeof(CommonResource).Assembly);
@@ -51,7 +51,7 @@ namespace Centrix.Encore.Common.Resources {
         ///   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Centrix.Encore.Common.Resources {
         /// <summary>
         ///   Busca una cadena traducida similar a Campos requeridos.
         /// </summary>
-        internal static string campo_requerido {
+        public static string campo_requerido {
             get {
                 return ResourceManager.GetString("campo_requerido", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Centrix.Encore.Common.Resources {
         /// <summary>
         ///   Busca una cadena traducida similar a El servicio retornó un error.
         /// </summary>
-        internal static string httpresponse_500 {
+        public static string httpresponse_500 {
             get {
                 return ResourceManager.GetString("httpresponse_500", resourceCulture);
             }

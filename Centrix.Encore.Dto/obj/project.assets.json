@@ -932,11 +932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj",
+      "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj",
       "projectName": "Centrix.Encore.Dto",
-      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj",
+      "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Dto\\obj\\",
+      "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -958,11 +958,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
             }
           }
         }

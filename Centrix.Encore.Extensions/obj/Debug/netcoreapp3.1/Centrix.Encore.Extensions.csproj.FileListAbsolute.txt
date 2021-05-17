@@ -12,3 +12,17 @@ C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Extensions\obj\Debug\
 C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.dll
 C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.pdb
 C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.csproj.CoreCompileInputs.cache
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\bin\Debug\netcoreapp3.1\Centrix.Encore.Extensions.deps.json
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\bin\Debug\netcoreapp3.1\Centrix.Encore.Extensions.dll
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\bin\Debug\netcoreapp3.1\Centrix.Encore.Extensions.pdb
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.dll
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\bin\Debug\netcoreapp3.1\Centrix.Encore.IoC.dll
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.pdb
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\bin\Debug\netcoreapp3.1\Centrix.Encore.IoC.pdb
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.csprojAssemblyReference.cache
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.AssemblyInfoInputs.cache
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.AssemblyInfo.cs
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.csproj.CoreCompileInputs.cache
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.csproj.CopyComplete
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.dll
+C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Extensions\obj\Debug\netcoreapp3.1\Centrix.Encore.Extensions.pdb

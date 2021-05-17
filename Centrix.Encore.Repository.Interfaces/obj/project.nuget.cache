@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QIcjawI3pFt96el0p42P7ZoYcvDbWVzpo4c+CyuiA7/oyc9T7slXVrrdr4qQVIUkzXLceniuYcGBY5qRQk2ivw==",
+  "dgSpecHash": "I+eMGUvJlsXVvpnSMqR04pB8dVGYQf7QwrKjHSxOnimG6wPyo1hrXiUYhGhpByDbAaPaoDgI+LZ0wuO6e5Zqqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj",
+  "projectFilePath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\aspectcore.abstractions\\2.1.0\\aspectcore.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\aspectcore.core\\2.1.0\\aspectcore.core.2.1.0.nupkg.sha512",

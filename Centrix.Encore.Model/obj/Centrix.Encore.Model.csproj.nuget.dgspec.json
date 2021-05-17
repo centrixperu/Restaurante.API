@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {}
+    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
+    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj",
+        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj",
         "projectName": "Centrix.Encore.Model",
-        "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj",
+        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Model\\obj\\",
+        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

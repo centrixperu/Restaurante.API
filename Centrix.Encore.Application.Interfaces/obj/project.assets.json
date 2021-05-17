@@ -986,11 +986,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj",
+      "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj",
       "projectName": "Centrix.Encore.Application.Interfaces",
-      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj",
+      "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Application.Interfaces\\obj\\",
+      "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1012,17 +1012,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
             }
           }
         }

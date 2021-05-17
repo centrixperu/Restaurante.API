@@ -5797,11 +5797,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Service.Implementations\\Centrix.Encore.Service.Implementations.csproj",
+      "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Implementations\\Centrix.Encore.Service.Implementations.csproj",
       "projectName": "Centrix.Encore.Service.Implementations",
-      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Service.Implementations\\Centrix.Encore.Service.Implementations.csproj",
+      "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Implementations\\Centrix.Encore.Service.Implementations.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Service.Implementations\\obj\\",
+      "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Implementations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5823,11 +5823,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj"
+            "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj": {
+              "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj"
             }
           }
         }

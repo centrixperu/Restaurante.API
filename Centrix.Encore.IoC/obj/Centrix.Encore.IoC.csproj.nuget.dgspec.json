@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {}
+    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
+    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj",
+        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj",
         "projectName": "Centrix.Encore.IoC",
-        "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj",
+        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\source\\repos\\Centrix.Encore\\Centrix.Encore.IoC\\obj\\",
+        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

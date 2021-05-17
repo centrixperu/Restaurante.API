@@ -37,7 +37,7 @@ namespace Centrix.Encore.IoC
                 var dependencies = DependencyContext.Default.RuntimeLibraries;
                 foreach (var library in dependencies)
                 {
-                    if (library.Name.StartsWith("Ferreyros"))
+                    if (library.Name.StartsWith("Centrix"))
                     {
                         var assembly = Assembly.Load(new AssemblyName(library.Name));
                         assemblies.Add(assembly);
