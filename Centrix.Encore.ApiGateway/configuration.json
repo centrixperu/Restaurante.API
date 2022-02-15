@@ -49,7 +49,7 @@
       "Config": [
         {
           "Name": "Seguridad API",
-          "Version": "v1",
+          "Version": "v3",
           "Url": "http://localhost:8000/swagger/v1/swagger.json"
         }
       ]

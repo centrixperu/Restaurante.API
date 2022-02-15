@@ -39,4 +39,3 @@ C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix
 C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csproj.CoreCompileInputs.cache
 C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.dll
 C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.pdb
-C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csproj.AssemblyReference.cache

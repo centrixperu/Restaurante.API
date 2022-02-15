@@ -99,7 +99,7 @@ namespace Centrix.Encore.ApiPokemon
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "V1");
                 c.InjectStylesheet("/swagger/header.css");
-                c.DocumentTitle = "Tracking";
+                c.DocumentTitle = "Pokemon";
             });
         }
         public void ConfigureContainer(ContainerBuilder builder)
@@ -108,7 +108,7 @@ namespace Centrix.Encore.ApiPokemon
             var dependencies = DependencyContext.Default.RuntimeLibraries;
             foreach (var library in dependencies)
             {
-                if (library.Name.StartsWith("Ferreyros"))
+                if (library.Name.StartsWith("Centrix"))
                 {
                     var assembly = Assembly.Load(new AssemblyName(library.Name));
                     assemblies.Add(assembly);
