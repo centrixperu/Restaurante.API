@@ -27,3 +27,16 @@ C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Common\obj\Debug\n
 C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csproj.CopyComplete
 C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.dll
 C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.pdb
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.deps.json
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.dll
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\bin\Debug\netcoreapp3.1\Centrix.Encore.Common.pdb
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.Resources.CommonResource.resources
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.Resources.UserResource.resources
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csproj.GenerateResource.cache
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.AssemblyInfoInputs.cache
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.AssemblyInfo.cs
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csproj.CoreCompileInputs.cache
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.dll
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.pdb
+C:\Centrix\Restaurante.API\Centrix.Encore.Common\obj\Debug\netcoreapp3.1\Centrix.Encore.Common.csproj.AssemblyReference.cache

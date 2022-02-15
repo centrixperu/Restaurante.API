@@ -1,21 +1,21 @@
 ﻿using Centrix.Encore.Common.Resources;
 using Centrix.Encore.Common.Exceptions;
-using Centrix.Encore.IoC;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Autofac;
 
 namespace Centrix.Encore.Service.Implementations.Base
 {
     public class HttpClientService
     {
         private Lazy<IHttpClientFactory> factory;
-        public HttpClientService()
+        public HttpClientService(ILifetimeScope lifetimeScope)
         {
-            this.factory = new Lazy<IHttpClientFactory>(() => IoCContainer.Current.Resolve<IHttpClientFactory>());
+            this.factory = new Lazy<IHttpClientFactory>(() => lifetimeScope.Resolve<IHttpClientFactory>());
         }
 
         public async Task<T> InvokeAsync<T>(HttpMethod method, string endPoint, string user, string password, object parameters = null)

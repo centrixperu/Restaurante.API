@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9DEYvmc1OPkvEULyKWZMMJFzEMMZYRxL/oH++RyDVoPZYfJMrMPOTo2xNOyy6N0mjT6P2+QVv4BbeGX1CL8f8A==",
+  "dgSpecHash": "CMHFARfvwFTp9UwMP1BC51fwfhFNtKObGkoJvhQDgVoRojkadiH8jtbuZVEZQkiJofso1JdCqlvCSgNSGpEP9A==",
   "success": true,
-  "projectFilePath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj",
+  "projectFilePath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

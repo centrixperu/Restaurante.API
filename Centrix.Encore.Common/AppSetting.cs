@@ -8,7 +8,6 @@ namespace Centrix.Encore.Common
     {
         public ConnectionString ConnectionStrings { get; set; }
         public JWTConfiguration JWTConfigurations { get; set; }
-        public ServiceConfiguration ServicioSAPWS { get; set; }
 
     }
     public class ConnectionString
@@ -21,12 +20,6 @@ namespace Centrix.Encore.Common
         public int ExpirationTimeHours { get; set; }
         public string Iss { get; set; }
         public string Aud { get; set; }
-    }
-
-    public class ServiceConfiguration
-    {
-        public string URL { get; set; }
-        public Credential Credentials { get; set; }
     }
 
     public class Credential

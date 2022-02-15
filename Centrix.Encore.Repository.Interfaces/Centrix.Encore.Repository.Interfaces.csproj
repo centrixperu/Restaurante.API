@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Configurations\**" />
+    <EmbeddedResource Remove="Configurations\**" />
+    <None Remove="Configurations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Centrix.Encore.Caching\Centrix.Encore.Caching.csproj" />
     <ProjectReference Include="..\Centrix.Encore.Domain.Models\Centrix.Encore.Domain.Models.csproj" />
     <ProjectReference Include="..\Centrix.Encore.Dto\Centrix.Encore.Dto.csproj" />
@@ -12,10 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Configurations\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
   </ItemGroup>
 

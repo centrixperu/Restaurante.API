@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac;
@@ -8,7 +9,6 @@ using Autofac.Extensions.DependencyInjection;
 using Centrix.Encore.Common;
 using Centrix.Encore.Common.Schema;
 using Centrix.Encore.Extensions;
-using Centrix.Encore.IoC;
 using Centrix.Encore.Repository.Implementations.Data;
 using Centrix.Encore.Repository.Implementations.Data.Base;
 using Centrix.Encore.Repository.Interfaces.Data;
@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyModel;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -57,7 +58,7 @@ namespace Centrix.Encore.ApiGateway
             services.Configure<AppSetting>(appSettingsSection);
             services.AddSingleton(cfg => cfg.GetService<IOptions<AppSetting>>().Value);
 
-            services.AddAppSettingExtesion(Configuration);
+            services.AddAppSettingExtension(Configuration);
             services.AddSwaggerExtesion("Seguridad API");
 
             var appSettings = appSettingsSection.Get<AppSetting>();
@@ -93,20 +94,18 @@ namespace Centrix.Encore.ApiGateway
             services.AddSwaggerForOcelot(Configuration);
             services.AddControllers();
 
-            services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
-            services.AddTransient<IUnitOfWork, UnitOfWork>();
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-
             services.AddSwaggerGen(cfg =>
             {
                 cfg.DocumentFilter<HideOcelotControllersFilter>();
             });
-            IoCContainer.SetServices(services, Configuration);
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public async void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            string pathBase = Configuration.GetSection("Host:PathBase").Get<string>();
+
             app.UseDeveloperExceptionPage();
 
             app.UseCors(x => x
@@ -128,7 +127,7 @@ namespace Centrix.Encore.ApiGateway
             {
                 c.PathToSwaggerGenerator = "/swagger/docs";
                 c.InjectStylesheet("/swagger/header.css");
-                c.DocumentTitle = "TALLERES";
+                c.DocumentTitle = "ENCORE";
             });
             app.UseSwagger();
             app.UseSwaggerUI(c =>
@@ -143,16 +142,29 @@ namespace Centrix.Encore.ApiGateway
 
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            builder.RegisterModule(new ApplicationModule());
-        }
-        public class ApplicationModule : Module
-        {
-            protected override void Load(ContainerBuilder builder)
+            var assemblies = new List<Assembly>();
+            var dependencies = DependencyContext.Default.RuntimeLibraries;
+            foreach (var library in dependencies)
             {
-                builder.RegisterInstance(new AutofacServiceProviderFactory());
-
-                IoCContainer.Initialize(builder);
+                if (library.Name.StartsWith("Centrix"))
+                {
+                    var assembly = Assembly.Load(new AssemblyName(library.Name));
+                    assemblies.Add(assembly);
+                }
             }
+
+            var assembliesArray = assemblies.ToArray();
+
+            builder.RegisterAssemblyTypes(assembliesArray).Where(t => t.Name.EndsWith("Service")).AsImplementedInterfaces().InstancePerDependency();
+            builder.RegisterAssemblyTypes(assembliesArray).Where(t => t.Name.EndsWith("Repository")).AsImplementedInterfaces().InstancePerDependency();
+            builder.RegisterAssemblyTypes(assembliesArray).Where(t => t.Name.EndsWith("Application")).AsImplementedInterfaces().InstancePerLifetimeScope();
+
+            Autofac.IContainer container = null;
+            builder.Register(c => container).AsSelf().SingleInstance();
+
+            builder.RegisterGeneric(typeof(BaseRepository<>)).As(typeof(IBaseRepository<>)).InstancePerDependency();
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
+            builder.RegisterType<HttpContextAccessor>().As<IHttpContextAccessor>().SingleInstance();
         }
         public class HideOcelotControllersFilter : IDocumentFilter
         {

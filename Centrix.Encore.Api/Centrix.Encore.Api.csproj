@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+  <!--<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Api\Centrix.Encore.Api.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DocumentationFile>C:\Users\LENOVO\source\repos\Centrix.Encore\Centrix.Encore.Api\Centrix.Encore.Api.xml</DocumentationFile>
-  </PropertyGroup>
+  </PropertyGroup>-->
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="5.2.0" />
@@ -33,7 +33,6 @@
     <ProjectReference Include="..\Centrix.Encore.Common\Centrix.Encore.Common.csproj" />
     <ProjectReference Include="..\Centrix.Encore.Dto\Centrix.Encore.Dto.csproj" />
     <ProjectReference Include="..\Centrix.Encore.Extensions\Centrix.Encore.Extensions.csproj" />
-    <ProjectReference Include="..\Centrix.Encore.IoC\Centrix.Encore.IoC.csproj" />
     <ProjectReference Include="..\Centrix.Encore.Model\Centrix.Encore.Model.csproj" />
     <ProjectReference Include="..\Centrix.Encore.Repository.Implementations\Centrix.Encore.Repository.Implementations.csproj" />
     <ProjectReference Include="..\Centrix.Encore.Repository.Interfaces\Centrix.Encore.Repository.Interfaces.csproj" />

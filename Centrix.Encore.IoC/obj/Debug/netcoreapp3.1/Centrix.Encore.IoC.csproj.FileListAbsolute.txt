@@ -15,3 +15,13 @@ C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netc
 C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.csproj.CoreCompileInputs.cache
 C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.dll
 C:\Centrix_Holding\Restaurante\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.pdb
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\bin\Debug\netcoreapp3.1\Centrix.Encore.IoC.deps.json
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\bin\Debug\netcoreapp3.1\Centrix.Encore.IoC.dll
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\bin\Debug\netcoreapp3.1\Centrix.Encore.IoC.pdb
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.AssemblyInfoInputs.cache
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.AssemblyInfo.cs
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.csproj.CoreCompileInputs.cache
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.dll
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.pdb
+C:\Centrix\Restaurante.API\Centrix.Encore.IoC\obj\Debug\netcoreapp3.1\Centrix.Encore.IoC.csproj.AssemblyReference.cache

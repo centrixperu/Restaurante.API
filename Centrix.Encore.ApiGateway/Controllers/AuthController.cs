@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using Autofac;
 using Centrix.Encore.ApiGateway.Models.Seguridad;
 using Centrix.Encore.Application.Interfaces;
+using Centrix.Encore.Application.Interfaces.ApiGateway;
 using Centrix.Encore.Common;
 using Centrix.Encore.Common.Exceptions;
 using Centrix.Encore.Common.Resources;
 using Centrix.Encore.Common.Schema;
 using Centrix.Encore.Dto.Base;
-using Centrix.Encore.IoC;
 using Centrix.Encore.Model.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using static Centrix.Encore.Common.Constants.Common;
@@ -26,11 +28,13 @@ namespace Centrix.Encore.ApiGateway.Controllers
     {
         private readonly Lazy<IAuthApplication> _authApplication;
         private readonly AppSetting _appSettings;
+        private readonly Lazy<IHttpContextAccessor> _httpContext;
 
-        public AuthController(IOptions<AppSetting> appSettings)
+        public AuthController(IOptions<AppSetting> appSettings, ILifetimeScope lifetimeScope)
         {
-            _authApplication = new Lazy<IAuthApplication>(() => IoCContainer.Current.Resolve<IAuthApplication>());
+            _authApplication = new Lazy<IAuthApplication>(() => lifetimeScope.Resolve<IAuthApplication>());
             _appSettings = appSettings.Value;
+            _httpContext = new Lazy<IHttpContextAccessor>(() => lifetimeScope.Resolve<IHttpContextAccessor>());
         }
         private IAuthApplication AuthApplication
         {

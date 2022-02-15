@@ -1,5 +1,5 @@
-﻿using Centrix.Encore.Common;
-using Centrix.Encore.IoC;
+﻿using Autofac;
+using Centrix.Encore.Common;
 using Centrix.Encore.Repository.Interfaces.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +16,7 @@ namespace Centrix.Encore.Repository.Implementations.Data
         private readonly DataContext _context;
         private readonly IHttpContextAccessor _httpContext;
         private readonly AppSetting settings;
+        private readonly ILifetimeScope _lifetimeScope;
 
         private Dictionary<Type, object> repositories;
         private bool _disposed;
@@ -36,16 +37,7 @@ namespace Centrix.Encore.Repository.Implementations.Data
 
         public T Repository<T>() where T : class
         {
-            if (repositories == null)
-                repositories = new Dictionary<Type, object>();
-
-            var type = typeof(T);
-            if (!repositories.ContainsKey(type))
-            {
-                repositories.Add(type, IoCContainer.Current.Resolve<T>("context", _context));
-            }
-
-            return (T)repositories[type];
+            return _lifetimeScope.Resolve<T>(new NamedParameter("context", _context));
         }
 
         public void SaveChanges()

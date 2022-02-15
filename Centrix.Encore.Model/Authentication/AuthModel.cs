@@ -11,5 +11,7 @@ namespace Centrix.Encore.Model.Authentication
 
         //[Required]
         public string Password { get; set; }
+
+        public string Sucursal { get; set; }
     }
 }

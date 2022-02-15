@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj": {}
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj": {}
   },
   "projects": {
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj",
         "projectName": "Centrix.Encore.Application.Implementations",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Implementations\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Implementations\\Centrix.Encore.Application.Implementations.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Implementations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,26 +28,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj"
-              },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj"
               }
             }
           }
@@ -59,6 +57,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -80,25 +79,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj",
         "projectName": "Centrix.Encore.Application.Interfaces",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\Centrix.Encore.Application.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Application.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -107,23 +107,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
               }
             }
           }
@@ -136,6 +136,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -151,25 +152,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj",
         "projectName": "Centrix.Encore.Caching",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Caching\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -178,14 +180,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
               }
             }
           }
@@ -198,6 +200,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -213,25 +216,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj",
         "projectName": "Centrix.Encore.Common",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -240,16 +244,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj"
-              }
-            }
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -260,6 +260,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
@@ -281,25 +282,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj",
         "projectName": "Centrix.Encore.Domain.Models",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -308,11 +310,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -324,6 +326,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -339,25 +342,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj",
         "projectName": "Centrix.Encore.Dto",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -366,17 +370,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
               }
             }
           }
@@ -389,6 +393,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -404,101 +409,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj",
-        "projectName": "Centrix.Encore.IoC",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Autofac": {
-              "target": "Package",
-              "version": "[5.2.0, )"
-            },
-            "Autofac.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.Extensions.DependencyModel": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "YrinLeung.EasyCaching.Interceptor.AspectCore.Autofac": {
-              "target": "Package",
-              "version": "[1.0.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj",
         "projectName": "Centrix.Encore.Model",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -507,11 +437,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -523,6 +453,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -538,25 +469,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj",
         "projectName": "Centrix.Encore.Repository.Implementations",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\Centrix.Encore.Repository.Implementations.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Implementations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -565,29 +497,26 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Common\\Centrix.Encore.Common.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.IoC\\Centrix.Encore.IoC.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
-              },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj"
               }
             }
           }
@@ -600,6 +529,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
@@ -641,25 +571,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj",
         "projectName": "Centrix.Encore.Repository.Interfaces",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\Centrix.Encore.Repository.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Repository.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -668,23 +599,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Caching\\Centrix.Encore.Caching.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Domain.Models\\Centrix.Encore.Domain.Models.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
               }
             }
           }
@@ -697,7 +628,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -718,25 +654,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj": {
+    "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj",
+        "projectUniqueName": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj",
         "projectName": "Centrix.Encore.Service.Interfaces",
-        "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\obj\\",
+        "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\Centrix.Encore.Service.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Service.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -745,17 +682,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\ASP.NET Core - EJ2\\18.1.0.36\\NuGetPackages\\Syncfusion.Pdf.Imaging.Net.Core\\18.1.0.36-beta": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Dto\\Centrix.Encore.Dto.csproj"
               },
-              "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
-                "projectPath": "C:\\Centrix_Holding\\Restaurante\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
+              "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj": {
+                "projectPath": "C:\\Centrix\\Restaurante.API\\Centrix.Encore.Model\\Centrix.Encore.Model.csproj"
               }
             }
           }
@@ -768,6 +705,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -783,7 +721,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
